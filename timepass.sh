@@ -24,4 +24,22 @@ sleep 2
 getrich=$((( $RANDOM % 19 ) + $age ))
 echo "you become millionaire my big brother $name, when u are $getrich year old "
 read feedback 
-echo thanks!
+echo yes!
+sleep 1 
+
+
+
+
+
+# converstiotion 
+
+echo -n "🤝will u be my friend🤝 yes\no :-> "
+read friend 
+sleep 1
+if [ "$friend" = yes ]; then 
+echo "thank u my friend $name 🥰"
+else 
+echo "oh! okay u have many friends 😎"
+sleep 1 
+echo "just kidding "
+fi 
